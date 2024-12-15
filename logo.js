@@ -26,8 +26,8 @@ let intervalId; // Armazena o ID do intervalo para poder parar
       const newVersion2 = getRandomVersion();
 
       // Atualiza os atributos `src` das imagens com o novo caminho
-      letter1.src = `data/${letter1.dataset.letter}/${letter1.dataset.letter}${newVersion1}.png`;
-      letter2.src = `data/${letter2.dataset.letter}/${letter2.dataset.letter}${newVersion2}.png`;
+      letter1.src = `/data/${letter1.dataset.letter}/${letter1.dataset.letter}${newVersion1}.png`;
+      letter2.src = `/data/${letter2.dataset.letter}/${letter2.dataset.letter}${newVersion2}.png`;
     }
 
     // Inicia a troca constante das letras
